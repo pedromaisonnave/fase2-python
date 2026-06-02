@@ -1,3 +1,6 @@
+
+# Sistema de registro de ideias de negocio
+
 def adicionar_ideia(ideia):
     with open("ideias.txt", "a") as arquivo:
         arquivo.write(ideia + "\n")
